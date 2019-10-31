@@ -1,0 +1,15 @@
+{
+  "name": "cloudrun-multiregion-demo",
+  "version": "0.1.0",
+  "description": "Simple Nodejs app to demo multi regional using cloud run",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-all":"make deploy-all"
+  },
+  "author": "Ramesh Lingappa",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
